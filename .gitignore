@@ -4,3 +4,4 @@
 node_modules
 build
 grails-app/assets/bower
+out
