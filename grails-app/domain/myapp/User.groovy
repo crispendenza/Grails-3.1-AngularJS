@@ -1,6 +1,9 @@
 package myapp
 
 class User {
+
+    //static hasMany = [disciplinas:Disciplina]
+
     String firstName
     String lastName
     String password
