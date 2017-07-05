@@ -1,26 +1,36 @@
-# Grails-3.1-AngularJS
-Example project for grails 3.1 with angularjs profile. Shows simple demo of routing with controller
- 
-You can download this project from right withing the intellij using `file->new->project from version control->git` Once the project is opened as gradle project run bowerRefersh task in gradle pane to download the needed javascripts and then you can run the project.
+# P2 Desenvolvimento web
 
-The project demonstrates creating Grails domain class and then generate-all on that class.
-Once a class+controller+views are created in the project we create ng-controller, ng-service and template for the domain class User
+####Cristian Pendenza 489115<br>Vinícius Barbosa 
 
-See the project commit history for reference
+**Baseado no projeto Grails-3.1-AngularJS**
+https://github.com/sapanparikh18/Grails-3.1-AngularJS.git
 
-Following are the key js files
+####Descrição
+ - Classes domínio 'Disciplina', 'Professor' e 'Departamento' 
+ - Controladores DisciplinaController, 'ProfessorController' e 'DepartamentoController'
+ - Views [disciplina, professor e departamento]
+ - Bootstrap inicializado com 2 professores, 2 departamentos e 4 disciplinas
 
-1. grails-app\assets\javascripts\myapp\core\services\DomainServiceFactory.js
-2. grails-app\assets\javascripts\myapp\user\services\userDataFactoryService.js
-3. grails-app\assets\javascripts\myapp\user\controllers\userController.js
-4. grails-app\assets\javascripts\myapp\user\routes.js
+####Instruções para execução:
+1. Dentro do Intellij 'New' -> 'Project from version control' -> 'Git'
+2. Cole este endereço https://github.com/crispendenza/Grails-3.1-AngularJS.git
+3. Dê avançar nas próximas etapas e crie localmente a aplicação
+4. Execute o script do BD do MySql
+5. Configure o arquivo '/conf/application.yml' se necessário
+3. Run!
 
-
-######Landing page
-![Landing Page](https://tinypng.com/site/output/4f9a8i9lk3v10ofo.png/1.png)
-######List Page
-![List Page](https://tinypng.com/site/output/joo75k1hu4jli4be.png/2.png)
-######Show page
-![List Page](https://tinypng.com/site/output/9tqrv8s70i5khp31.png/3.png)
-######Create page
-![List Page](https://tinypng.com/site/output/nqr349gun5grt47f.png/4.png)
+#####OBS.: Caso dê algum problema de depêndencia do *gradle*, utilize a aplicação 'gradlew' (na raiz do projeto) para limpar os caminhos e dependências:
+###### Linux: do terminal, vá até a raiz do projeto e execute 
+    $ chmod 755 gradlew
+    $ ./gradlew clean
+###### Windows: abra o cmd, vá até a raiz do projeto e execute
+    > gradlew.bat clean
+   
+#### /conf/application.yml
+    driverClassName: 
+    username: <seu_nome_usuario_mysql>
+    password: <seu_password_mysql>
+    
+####Script BD (MySql)
+    CREATE NEW DATABASE
+    

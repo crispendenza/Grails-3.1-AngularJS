@@ -4,7 +4,7 @@ class Disciplina {
 
     //static belongsTo = [User]
 
-    int codigo
+    String codigo
     String nome
     String departamento
     String professor
@@ -22,8 +22,5 @@ class Disciplina {
         ementa nullable: true
     }
 
-    static mapping ={
-        id column: 'codigo', type: 'integer'
-    }
 
 }

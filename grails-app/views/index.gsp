@@ -20,6 +20,14 @@
     <li class="divider"></li>
     <li><a href="#index">Home</a></li>
 </ul>
+
+<ul id="dropdown2" class="dropdown-content">
+    <li><a href="#disciplina/create">Create</a></li>
+    <li><a href="#disciplina">List</a></li>
+    <li class="divider"></li>
+    <li><a href="#index">Home</a></li>
+</ul>
+
 <nav>
     <div class="container">
     <div class="nav-wrapper">
@@ -27,6 +35,7 @@
         <ul class="right hide-on-med-and-down">
             <!-- Dropdown Trigger -->
             <li><a class="dropdown-button" href="#!" data-activates="dropdown1">User<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Disciplina<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
     </div>
     </div>

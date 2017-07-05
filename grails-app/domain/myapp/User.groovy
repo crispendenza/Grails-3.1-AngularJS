@@ -8,6 +8,7 @@ class User {
     String lastName
     String password
     Date dob
+
     static constraints = {
         firstName nullable: false
         lastName nullable: false
