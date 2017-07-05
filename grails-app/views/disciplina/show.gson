@@ -1,0 +1,7 @@
+import myapp.Disciplina
+
+model {
+	Disciplina disciplina
+}
+
+json tmpl.disciplina(disciplina)

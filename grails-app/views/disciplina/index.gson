@@ -1,0 +1,8 @@
+import myapp.Disciplina
+
+model {
+	Iterable<Disciplina> disciplinaList
+}
+
+json tmpl.disciplina(disciplinaList ?: [])
+
