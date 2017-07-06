@@ -7,7 +7,7 @@ class Disciplina {
     String codigo
     String nome
     String departamento
-    String professor
+    //User professor
     Date dataInicio
     Date dataFim
     String ementa
@@ -16,7 +16,7 @@ class Disciplina {
         codigo nullable: false, blank: false
         nome nullable: false
         departamento nullable: true
-        professor nullable: true
+      //  professor nullable: true
         dataInicio nullable: true
         dataFim nullable: true
         ementa nullable: true

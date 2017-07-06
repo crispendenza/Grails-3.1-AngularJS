@@ -1,0 +1,17 @@
+<div class="card">
+    <div class="card-content">
+        <div class="card-title">Disciplinas</div>
+<table>
+    <tr><th>ID</th><th>Código</th><th>Nome</th><th>Departamento</th><th>Data início</th><th>Data Fim</th><th>Ementa</th></tr>
+    <tr ng-repeat="disciplina in ctrl.disciplinas">
+        <td ng-bind="disciplina.id"></td>
+        <td ><a href="#disciplina/{{disciplina.id}}" ng-bind="disciplina.codigo"></a></td>
+        <td ng-bind="disciplina.nome"></td>
+        <td ng-bind="disciplina.departamento"></td>
+        <td ng-bind="disciplina.dataInicio"></td>
+        <td ng-bind="disciplina.dataFim"></td>
+        <td ng-bind="disciplina.ementa"></td>
+    </tr>
+</table>
+    </div>
+</div>

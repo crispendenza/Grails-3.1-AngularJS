@@ -1,0 +1,39 @@
+<div class="row">
+    <form class="col s12">
+        <div class="row">
+            <div class="input-field col s2">
+                <input ng-model="ctrl.disciplina.codigo"  id="codigo" type="text" class="validate">
+                <label for="codigo">Código da disciplina</label>
+            </div>
+            <div class="input-field col s10">
+                <input ng-model="ctrl.disciplina.nome" id="nome" type="text" class="validate">
+                <label for="nome">Nome da disciplina</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input ng-model="ctrl.disciplina.departamento" id="departamento" type="text" class="validate">
+                <label for="departamento">Departamento</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input ng-model="ctrl.disciplina.dataInicio" id="dataInicio" type="text" class="validate">
+                <label for="dataInicio">Data de início da disciplina</label>
+            </div>
+            <div class="input-field col s6">
+                <input ng-model="ctrl.disciplina.dataFim" id="dataFim" type="text" class="validate">
+                <label for="dataFim">Data de fim da disciplina</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input ng-model="ctrl.disciplina.ementa" id="ementa" type="text" class="validate">
+                <label for="ementa">Ementa</label>
+            </div>
+        </div>
+
+        <input class="btn" type="submit" ng-click="ctrl.save(ctrl.disciplina)" value="Save" />
+
+    </form>
+</div>

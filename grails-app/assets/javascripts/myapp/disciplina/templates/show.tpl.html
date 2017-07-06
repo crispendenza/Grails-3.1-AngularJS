@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="card-content">
+        <div class="card-title">
+            {{ctrl.disciplina.codigo}} {{ctrl.disciplina.nome}}
+        </div>
+        Codigo: {{ctrl.disciplina.codigo}}<br>
+        Nome: {{ctrl.disciplina.nome}}<br>
+        Depto: {{ctrl.disciplina.departamento}}<br>
+        <a href="#/disciplina/edit/{{ctrl.disciplina.id}}" class="btn">Editar</a>
+        <input class="btn red white-text" type="submit" ng-click="ctrl.delete(disciplina)" value="Excluir" />
+    </div>
+</div>
+
