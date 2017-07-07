@@ -6,10 +6,10 @@
 https://github.com/sapanparikh18/Grails-3.1-AngularJS.git
 
 ####Descrição
- - Classes domínio 'Disciplina', 'Professor' e 'Departamento' 
- - Controladores DisciplinaController, 'ProfessorController' e 'DepartamentoController'
- - Views [disciplina, professor e departamento]
- - Bootstrap inicializado com 2 professores, 2 departamentos e 4 disciplinas
+ - Classe domínio 'Disciplina'
+ - Controlador DisciplinaController
+ - Views [disciplina]
+ - Bootstrap inicializado com 2 disciplinas
 
 ####Instruções para execução:
 1. Dentro do Intellij 'New' -> 'Project from version control' -> 'Git'
@@ -23,6 +23,7 @@ https://github.com/sapanparikh18/Grails-3.1-AngularJS.git
 ###### Linux: do terminal, vá até a raiz do projeto e execute 
     $ chmod 755 gradlew
     $ ./gradlew clean
+    $ ./gradlew bowerRefresh
 ###### Windows: abra o cmd, vá até a raiz do projeto e execute
     > gradlew.bat clean
    

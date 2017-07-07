@@ -45,3 +45,4 @@ function DisciplinaCreateController(disciplinaService,$routeParams,$location){
         })
     }
 }
+

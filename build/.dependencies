@@ -24,6 +24,7 @@ dependencies:
 - file:/home/cristian/.gradle/caches/modules-2/files-2.1/org.grails.plugins/views-json/1.0.0.RC4/c7a908ba532c2779265e78de325e7ac1c10f0203/views-json-1.0.0.RC4.jar
 - file:/home/cristian/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.190/df71536d44e3b07f0c15bb632cac51956c55fc3e/h2-1.4.190.jar
 - file:/home/cristian/.gradle/caches/modules-2/files-2.1/org.grails.plugins/asset-pipeline/3.0.14/388f71802148b8caf83a054eb9221dd9172c03f/asset-pipeline-3.0.14.jar
+- file:/home/cristian/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.29/91798a4463050f61598122fe7fdc24aa196dfc0c/mysql-connector-java-5.1.29.jar
 - file:/home/cristian/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.1.0.RC1/608c9248c9ce03e82285b35442c7093b72dbf33a/grails-plugin-testing-3.1.0.RC1.jar
 - file:/home/cristian/.gradle/caches/modules-2/files-2.1/org.grails.plugins/geb/1.0.1/e18899087e1202746f44193d6c7a1657afd9260e/geb-1.0.1.jar
 - file:/home/cristian/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-rest-client/5.0.0.RC3/8895cc8a7b6f3e948b5d2802409bb89ef7c2b64d/grails-datastore-rest-client-5.0.0.RC3.jar

@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>P2 - DevWeb</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <asset:stylesheet href="materialize/css/materialize.min.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -34,7 +34,7 @@
         <a href="#!" class="brand-logo">Grails</a>
         <ul class="right hide-on-med-and-down">
             <!-- Dropdown Trigger -->
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">User<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Usuario<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Disciplina<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
     </div>

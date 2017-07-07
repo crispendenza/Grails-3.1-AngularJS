@@ -10,4 +10,3 @@
 //= require_tree templates
 
 angular.module("myapp.disciplina", ["myapp.core"]);
-
