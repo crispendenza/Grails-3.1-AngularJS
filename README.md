@@ -1,6 +1,6 @@
 # P2 Desenvolvimento web
 
-####Cristian Pendenza 489115<br>Vinícius Barbosa 
+####Cristian Pendenza 489115<br>Vinícius Barbosa 488950
 
 **Baseado no projeto Grails-3.1-AngularJS**
 https://github.com/sapanparikh18/Grails-3.1-AngularJS.git
